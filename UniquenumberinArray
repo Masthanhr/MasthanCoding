@@ -1,0 +1,19 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Start small. Ship something.");
+        
+        Integer[] arr={1,2,4,5,5,6,6};
+        Set<Integer> uni=new HashSet<>();
+        
+        for(int num:arr)
+        {
+            uni.add(num);
+            
+        }
+        
+        System.out.println(uni);
+        
+    }
+}
